@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api-gateway" />
+        <module name="springcloud-config-server" />
+        <module name="springcloud-consumer-h5" />
+        <module name="springcloud-consumer-h5-feign" />
+        <module name="springcloud-consumer-h5-ribbon-hystrix" />
+        <module name="springcloud-eureka-server" />
+        <module name="springcloud-eureka-server-ha" />
+        <module name="springcloud-provider-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-cloud-eureka-server-ha" target="1.8" />
+      <module name="springcloud-api-gateway" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
+      <module name="springcloud-consumer-h5" target="1.8" />
+      <module name="springcloud-consumer-h5-feign" target="1.8" />
+      <module name="springcloud-consumer-h5-ribbon-hystrix" target="1.8" />
+      <module name="springcloud-eureka-server" target="1.8" />
+      <module name="springcloud-eureka-server-ha" target="1.8" />
+      <module name="springcloud-provider-user-service" target="1.8" />
+      <module name="springcloud_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
